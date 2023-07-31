@@ -42,11 +42,11 @@ Settings > Default profile > Windows PowerShell
 ```
 Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) (Sorry **CaskaydiaCove NF** actually broken icons at some theme so use [FiraCode Nerd Font](/fonts/FiraCode.zip) instead) some other fonts may not render icons properly.
 
-https://github.com/MiyagawaMizu/Cute-Terminal/blob/main/videos/nerd_fonts.mp4
+![](https://github.com/MiyagawaMizu/Cute-Terminal/blob/main/videos/nerd_fonts.mp4)
 
 Add a Color Scheme for Terminal, select the ones you like in [Windows Terminal Themes](https://windowsterminalthemes.dev/) and paste them in `settings.json`.
 
-[](/videos/color_scheme.mp4)
+![](/videos/color_scheme.mp4)
 
 ## 📦 [Install Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
 **Oh My Posh** is a prompt theme engine that enables prompt string beautification. Please ensure that you followed the previous instructions precisely because this engine needs your Terminal to utilize a **Nerd Font**.
@@ -67,7 +67,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json"
 ```
 Run the command and copy the command it shows up and continue running.
 
-[](/videos/default_theme.mp4)
+![](/videos/default_theme.mp4)
 
 > Now let's pick your theme:
 ```ps1
@@ -82,7 +82,7 @@ oh-my-posh --init --shell pwsh --config <path-to-your-theme>
 oh-my-posh init pwsh --config ~AppData\Local\Programs\oh-my-posh\themes\wholespace.omp.json | Invoke-Expression
 ```
 
-[](/videos/your_theme.mp4)
+![](/videos/your_theme.mp4)
 
 Since when opening a new Terminal window it will not have the **Oh My Posh** theme, so we will configure the PowerShell profile script so that every time we turn on Terminal, it will automatically use the theme we have selected.
 > Profile initialization command:
@@ -95,7 +95,7 @@ New-Item -Path $PROFILE -Type File -Force
 notepad $PROFILE
 ```
 
-[](/videos/profile_script.mp4)
+![](/videos/profile_script.mp4)
 
 > Once added, reload your profile for the changes to take effect:
 ```ps1
@@ -114,7 +114,7 @@ scoop install neofetch
 neofetch
 ```
 
-[](/videos/neofetch.mp4)
+![](/videos/neofetch.mp4)
 
 > Install Winfetch
 ```ps1
@@ -130,7 +130,7 @@ Choose “Yes” for any prompts you encountered.
 winfetch
 ```
 
-[](/videos/winfetch.mp4)
+![](/videos/winfetch.mp4)
 
 <!-- If it showing bug like this:
 
@@ -154,7 +154,7 @@ Because Windows Terminal cannot produce full quality graphics, the Windows logo 
 C:\Users\{user}\.config\winfetch\config.ps1
 ```
 
-[](/images/custom_image.mp4)
+![](/images/custom_image.mp4)
 
 That's all the steps to make your Terminal more cutie. If you have any questions feel free to contact me (｡•̀ᴗ-)✧.
 
