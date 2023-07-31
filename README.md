@@ -16,7 +16,7 @@ English | [Tiếng Việt](./docs/README.vi-VN.md)
 - You will need to download [Terminal from the Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
 - Download and install [Nerd Fonts](https://www.nerdfonts.com/).
 - Download and install [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) to use `winget` commands.
-- Install [Scoop](https://scoop.sh/).
+- Install [Scoop](https://scoop.sh/) for Neofech and Winfetch Installastion.
 	
 ### ⬇️ Installation
 Copy and run the command line by line in Terminal.
@@ -78,7 +78,7 @@ oh-my-posh --init --shell pwsh --config <path-to-your-theme>
 ```
 > The command should look something like this:
 ```ps1
-oh-my-posh init pwsh --config ~AppData\Local\Programs\oh-my-posh\themes\wholespace.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config ~AppData\Local\Programs\oh-my-posh\themes\{theme-name}.omp.json | Invoke-Expression
 ```
 
 https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/eff7ebff-a085-42c5-a08c-b85e84bfe833
