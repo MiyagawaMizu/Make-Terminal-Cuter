@@ -3,7 +3,7 @@ English | [Tiếng Việt](./docs/README.vi-VN.md)
 <div align="center"><h1>How to Make Terminal Cute</h1></div>
 
 <div align="center">
-Want to make a cute terminal like this, show it off to your non-IT friends? Well, you've come to the right place!
+<h3>Want to make a cute terminal like this, show it off to your non-IT friends? Well, you've come to the right place!</h3>
 </div>
 
 <div align="center">
