@@ -47,7 +47,7 @@ Thêm Bảng phối màu cho Terminal, chọn những cái bạn thích trong [C
 https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/de727f8c-d5a1-4819-8d61-861dfef301ef
 
 ## 📦 [Cài đặt Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
-**Oh My Posh** là một công cụ chủ đề nhanh chóng cho phép làm đẹp chuỗi nhanh chóng. Vui lòng đảm bảo rằng bạn đã làm theo các hướng dẫn trước đó một cách chính xác vì công cụ này cần Terminal của bạn để sử dụng **Nerd Font**.
+**Oh My Posh** là một công cụ chủ đề nhanh chóng cho phép làm đẹp chuỗi nhanh chóng. Vui lòng đảm bảo rằng bạn đã làm theo các hướng dẫn trước đó một cách chính xác vì công cụ này cần Terminal của bạn sử dụng **Nerd Font**.
 > Mở PowerShell và chạy lệnh sau:
 ```ps1
 winget install JanDeDobbeleer.OhMyPosh -s winget
