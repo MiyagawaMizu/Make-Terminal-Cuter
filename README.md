@@ -42,7 +42,8 @@ Settings > Default profile > Windows PowerShell
 ```
 Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) (Sorry **CaskaydiaCove NF** actually broken icons at some theme so use [FiraCode Nerd Font](/fonts/FiraCode.zip) instead) some other fonts may not render icons properly.
 
-![](https://github.com/MiyagawaMizu/Cute-Terminal/blob/main/videos/nerd_fonts.mp4)
+[![Nerd Fonts Demo](https://user-images.githubusercontent.com/MiyagawaMizu/169581266/d2b6f38a-638a-4924-b083-60335d61d998.jpg)](https://github.com/MiyagawaMizu/Cute-Terminal/blob/main/videos/nerd_fonts.mp4)
+
 
 Add a Color Scheme for Terminal, select the ones you like in [Windows Terminal Themes](https://windowsterminalthemes.dev/) and paste them in `settings.json`.
 
