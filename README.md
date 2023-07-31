@@ -1,4 +1,6 @@
-<div align="center"><h1>Cute-Terminal</h1></div>
+	
+English | [Tiếng Việt](./docs/README.vi-VN.md)
+<div align="center"><h1>How to Make Terminal Cute</h1></div>
 
 <div align="center">
 Want to make a cute terminal like this, show it off to your non-IT friends? Well, you've come to the right place!
@@ -33,8 +35,12 @@ irm get.scoop.sh | iex
 scoop install git
 ```
 
-### 💻 Windows Terminal Settings
-Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) or [FiraCode Nerd Font](/fonts/FiraCode.zip) other fonts may not render icons properly.
+## 💻 Windows Terminal Settings
+Set Default profile as **Windows PowerShell**
+```
+Settings > Default profile > Windows PowerShell
+```
+Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) (Sorry **CaskaydiaCove NF** actually broken icons at some theme so use [FiraCode Nerd Font](/fonts/FiraCode.zip) instead) some other fonts may not render icons properly.
 
 https://github.com/MiyagawaMizu/Cute-Terminal/blob/main/videos/nerd_fonts.mp4
 
@@ -42,7 +48,7 @@ Add a Color Scheme for Terminal, select the ones you like in [Windows Terminal T
 
 [](/videos/color_scheme.mp4)
 
-### 📦 [Install Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
+## 📦 [Install Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
 **Oh My Posh** is a prompt theme engine that enables prompt string beautification. Please ensure that you followed the previous instructions precisely because this engine needs your Terminal to utilize a **Nerd Font**.
 
 > Open a PowerShell prompt and run the following command:
@@ -71,10 +77,87 @@ Get-PoshThemes
 ```ps1
 oh-my-posh --init --shell pwsh --config <path-to-your-theme>
 ```
-> The command will look like this:
+> The command should look something like this:
 ```ps1
-oh-my-posh init pwsh --config 'C:\Users\mizu\AppData\Local\Programs\oh-my-posh\themes\wholespace.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config ~AppData\Local\Programs\oh-my-posh\themes\wholespace.omp.json | Invoke-Expression
 ```
 
 [](/videos/your_theme.mp4)
 
+Since when opening a new Terminal window it will not have the **Oh My Posh** theme, so we will configure the PowerShell profile script so that every time we turn on Terminal, it will automatically use the theme we have selected.
+> Profile initialization command:
+```ps1
+New-Item -Path $PROFILE -Type File -Force
+```
+> Open profile script with Notepad. Copy the command you used to initialize the theme earlier. Paste the command into the profile script and save it.
+
+```ps1
+notepad $PROFILE
+```
+
+[](/videos/profile_script.mp4)
+
+> Once added, reload your profile for the changes to take effect:
+```ps1
+. $PROFILE
+```
+
+## ⚙️ Install [Neofetch](https://github.com/dylanaraps/neofetch) / [Winfetch](https://github.com/lptstr/winfetch)
+
+Both **Neofetch** and **Winfetch** are command-line system information utilities that display information about your operating system, software, and hardware in an aesthetic and visually pleasing way. But **Winfetch** will be more personalized, so if you want to be fast, you can use Neofetch.
+> Install Neofetch
+```ps1
+scoop install neofetch
+```
+> Show your system information
+```ps1
+neofetch
+```
+
+[](/videos/neofetch.mp4)
+
+> Install Winfetch
+```ps1
+scoop install winfetch
+```
+> Setup script
+```ps1
+Install-Script -Name pwshfetch-test-1
+```
+Choose “Yes” for any prompts you encountered.
+> Restart your Terminal. Then, run winfetch to see if it’s correctly installed.
+```ps1
+winfetch
+```
+
+[](/videos/winfetch.mp4)
+
+<!-- If it showing bug like this:
+
+[](/images/winfetch_bug.png)
+
+> Open folder path:
+```
+"C:\Program Files\WindowsPowerShell\Scripts\pwshfetch-test-1.ps1"
+```
+> Open the script with any text editor and delete lines that has the error:
+```ps1
+
+``` -->
+
+### 🖼️ Custom Image for Winfetch
+Because Windows Terminal cannot produce full quality graphics, the Windows logo to the left can be altered to a custom "image" that looks more like a low resolution pixel art.
+
+1. Copy path to your image.
+2. Go to this path to edit the config file:
+```
+C:\Users\{user}\.config\winfetch\config.ps1
+```
+
+[](/images/custom_image.mp4)
+
+That's all the steps to make your Terminal more cutie. If you have any questions feel free to contact me (｡•̀ᴗ-)✧.
+
+[![](https://img.shields.io/badge/Discord:%20miyagawamizu-7289DA?logo=discord&logoColor=white)](https://discord.com/users/350945523810959361)
+[![](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/miyagawamizu)
+[![](https://img.shields.io/badge/Telegram-2ca5e0?logo=telegram&logoColor=white)](https://t.me/miyagawamizu)
