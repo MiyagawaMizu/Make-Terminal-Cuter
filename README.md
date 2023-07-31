@@ -17,7 +17,6 @@ Want to make a cute terminal like this, show it off to your non-IT friends? Well
 - Download and install [Nerd Fonts](https://www.nerdfonts.com/).
 - Download and install [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) to use `winget` commands.
 - Install [Scoop](https://scoop.sh/).
-
 	
 ### ⬇️ Installation
 Copy and run the command line by line in Terminal.
@@ -42,12 +41,11 @@ Settings > Default profile > Windows PowerShell
 ```
 Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) (Sorry **CaskaydiaCove NF** actually broken icons at some theme so use [FiraCode Nerd Font](/fonts/FiraCode.zip) instead) some other fonts may not render icons properly.
 
-[![Nerd Fonts Demo](https://user-images.githubusercontent.com/MiyagawaMizu/169581266/d2b6f38a-638a-4924-b083-60335d61d998.jpg)](https://github.com/MiyagawaMizu/Cute-Terminal/blob/main/videos/nerd_fonts.mp4)
-
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/02105207-53f3-4a26-b6c4-b33775c53769
 
 Add a Color Scheme for Terminal, select the ones you like in [Windows Terminal Themes](https://windowsterminalthemes.dev/) and paste them in `settings.json`.
 
-![](/videos/color_scheme.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/de727f8c-d5a1-4819-8d61-861dfef301ef
 
 ## 📦 [Install Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
 **Oh My Posh** is a prompt theme engine that enables prompt string beautification. Please ensure that you followed the previous instructions precisely because this engine needs your Terminal to utilize a **Nerd Font**.
@@ -68,7 +66,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json"
 ```
 Run the command and copy the command it shows up and continue running.
 
-![](/videos/default_theme.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/f967091f-3e82-4ff8-b68d-d2914e2ef2ff
 
 > Now let's pick your theme:
 ```ps1
@@ -83,7 +81,7 @@ oh-my-posh --init --shell pwsh --config <path-to-your-theme>
 oh-my-posh init pwsh --config ~AppData\Local\Programs\oh-my-posh\themes\wholespace.omp.json | Invoke-Expression
 ```
 
-![](/videos/your_theme.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/eff7ebff-a085-42c5-a08c-b85e84bfe833
 
 Since when opening a new Terminal window it will not have the **Oh My Posh** theme, so we will configure the PowerShell profile script so that every time we turn on Terminal, it will automatically use the theme we have selected.
 > Profile initialization command:
@@ -96,7 +94,7 @@ New-Item -Path $PROFILE -Type File -Force
 notepad $PROFILE
 ```
 
-![](/videos/profile_script.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/1e137776-8d37-4f04-8d6e-cf4504349ef4
 
 > Once added, reload your profile for the changes to take effect:
 ```ps1
@@ -115,7 +113,7 @@ scoop install neofetch
 neofetch
 ```
 
-![](/videos/neofetch.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/c1ffd589-99f0-4f44-adff-7c8d98ae7109
 
 > Install Winfetch
 ```ps1
@@ -131,7 +129,7 @@ Choose “Yes” for any prompts you encountered.
 winfetch
 ```
 
-![](/videos/winfetch.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/6d595282-5413-4271-b759-4040314c6f01
 
 <!-- If it showing bug like this:
 
@@ -155,7 +153,7 @@ Because Windows Terminal cannot produce full quality graphics, the Windows logo 
 C:\Users\{user}\.config\winfetch\config.ps1
 ```
 
-![](/images/custom_image.mp4)
+https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/1623ac24-d4de-4186-8181-300454bb0c5a
 
 That's all the steps to make your Terminal more cutie. If you have any questions feel free to contact me (｡•̀ᴗ-)✧.
 
