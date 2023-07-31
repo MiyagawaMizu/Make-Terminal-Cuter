@@ -1,5 +1,3 @@
-i'm lazy :3 ~~
-	
 [English](./README.md) | Tiếng Việt
 <div align="center"><h1>Cách làm Terminal Cute</h1></div>
 
