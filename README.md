@@ -65,3 +65,16 @@ Run the command and copy the command it shows up and continue running.
 
 > Now let's pick your theme:
 ```ps1
+Get-PoshThemes
+```
+> Pick your theme and run the command:
+```ps1
+oh-my-posh --init --shell pwsh --config <path-to-your-theme>
+```
+> The command will look like this:
+```ps1
+oh-my-posh init pwsh --config 'C:\Users\mizu\AppData\Local\Programs\oh-my-posh\themes\wholespace.omp.json' | Invoke-Expression
+```
+
+[](/videos/your_theme.mp4)
+
