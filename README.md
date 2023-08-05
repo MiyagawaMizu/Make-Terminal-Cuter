@@ -10,12 +10,12 @@ English | [Tiếng Việt](./docs/README.vi-VN.md)
 </div>
 
 	
-## Setup
+## 💻 Setup
 ### 📌 Requirements
 -  You will need to download **Terminal** from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
 - Download and install [Nerd Fonts](https://www.nerdfonts.com/).
 - Download and install [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) to use `winget` commands.
-- Install [Scoop](https://scoop.sh/) for Neofech and Winfetch Installastion.
+- Install [Scoop](https://scoop.sh/) for **Neofech** and **Winfetch** installastion.
 	
 ### ⬇️ Installation
 Copy and run the command line by line in Terminal.
