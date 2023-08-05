@@ -1,4 +1,3 @@
-	
 English | [Tiếng Việt](./docs/README.vi-VN.md)
 <div align="center"><h1>How to Make Terminal Cute</h1></div>
 
@@ -41,10 +40,14 @@ Settings > Default profile > Windows PowerShell
 ```
 
 But if you want to use **PowerShell Core** for extra features like autocomplete instead of using **Windows PowerShell** you can install it with `winget` command or in [Microsoft Store](https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D).
+
+> [!NOTE]
+> Use arrow keys for autocomplete
 ```ps1
 winget install --id Microsoft.Powershell --source winget
 ```
 
+https://github.com/MiyagawaMizu/Make-Terminal-Cuter/assets/71164002/dbb3ec22-2547-4041-9cca-bb8088273fb2
 
 Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) (Sorry **CaskaydiaCove NF** actually broken icons at some theme so use [FiraCode Nerd Font](/fonts/FiraCode.zip) instead) some other fonts may not render icons properly.
 
@@ -122,6 +125,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 Import-Module Terminal-Icons
 ```
 
+https://github.com/MiyagawaMizu/Make-Terminal-Cuter/assets/71164002/951e7126-3798-4b5d-861c-7bbfe5c9562f
 
 ## 🔌 Install [Neofetch](https://github.com/dylanaraps/neofetch) / [Winfetch](https://github.com/lptstr/winfetch)
 
