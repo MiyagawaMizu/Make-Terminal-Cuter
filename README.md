@@ -2,7 +2,7 @@ English | [Tiếng Việt](./docs/README.vi-VN.md)
 <div align="center"><h1>How to Make Terminal Cute</h1></div>
 
 <div align="center">
-<h3>Want to make a cute terminal like this? You've come to the right place UwU!</h3>
+<h3>Want to make your terminal cute like this? You've come to the right place UwU!</h3>
 </div>
 
 <div align="center">
@@ -12,7 +12,7 @@ English | [Tiếng Việt](./docs/README.vi-VN.md)
 	
 ## Setup
 ### 📌 Requirements
--  You will need to download [Terminal from the Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
+-  You will need to download **Terminal** from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
 - Download and install [Nerd Fonts](https://www.nerdfonts.com/).
 - Download and install [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) to use `winget` commands.
 - Install [Scoop](https://scoop.sh/) for Neofech and Winfetch Installastion.
@@ -56,7 +56,7 @@ Add a **🎨 Color Scheme** for Terminal, select the ones you like in [Windows T
 
 https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/de727f8c-d5a1-4819-8d61-861dfef301ef
 
-## 📦 [Install Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
+## 📦 Install [Oh My Posh](https://ohmyposh.dev/docs/installation/windows)
 **Oh My Posh** is a prompt theme engine that enables prompt string beautification. Please ensure that you followed the previous instructions precisely because this engine needs your Terminal to utilize a **Nerd Font**.
 
 ```ps1
@@ -112,7 +112,7 @@ https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/1e137776-8d37-4f04
 . $PROFILE
 ```
 
-## 🗂️ [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
+## 🗂️ [Terminal Icons](https://github.com/devblackops/Terminal-Icons)
 
 **Terminal-Icons** is a PowerShell module to add file and folder icons to your PowerShell prompt. This module requires a **Nerd Font** to be installed and used in your Terminal.
 
