@@ -12,7 +12,7 @@ English | [Tiếng Việt](./docs/README.vi-VN.md)
 
 	
 ## Setup
-### ⚡ Requirements
+### 📌 Requirements
 - You will need to download [Terminal from the Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
 - Download and install [Nerd Fonts](https://www.nerdfonts.com/).
 - Download and install [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) to use `winget` commands.
@@ -34,16 +34,23 @@ irm get.scoop.sh | iex
 scoop install git
 ```
 
-## 💻 Windows Terminal Settings
+## ⚙️ Windows Terminal Settings
 Set Default profile as **Windows PowerShell**
 ```
 Settings > Default profile > Windows PowerShell
 ```
+
+But if you want to use **PowerShell Core** for extra features like autocomplete instead of using **Windows PowerShell** you can install it with `winget` command or in [Microsoft Store](https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D).
+```ps1
+winget install --id Microsoft.Powershell --source winget
+```
+
+
 Adjust some settings to suit you and choose Font face to [CaskaydiaCove NF](/fonts/CascadiaCode.zip) (Sorry **CaskaydiaCove NF** actually broken icons at some theme so use [FiraCode Nerd Font](/fonts/FiraCode.zip) instead) some other fonts may not render icons properly.
 
 https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/02105207-53f3-4a26-b6c4-b33775c53769
 
-Add a Color Scheme for Terminal, select the ones you like in [Windows Terminal Themes](https://windowsterminalthemes.dev/) and paste them in `settings.json`.
+Add a **🎨 Color Scheme** for Terminal, select the ones you like in [Windows Terminal Themes](https://windowsterminalthemes.dev/) and paste them in `settings.json`.
 
 https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/de727f8c-d5a1-4819-8d61-861dfef301ef
 
@@ -101,7 +108,22 @@ https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/1e137776-8d37-4f04
 . $PROFILE
 ```
 
-## ⚙️ Install [Neofetch](https://github.com/dylanaraps/neofetch) / [Winfetch](https://github.com/lptstr/winfetch)
+## 🗂️ [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
+
+**Terminal-Icons** is a PowerShell module to add file and folder icons to your PowerShell prompt. This module requires a **Nerd Font** to be installed and used in your Terminal.
+
+> Install Terminal-Icons
+```ps1
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+
+> Run `notepad $PROFILE` and Add the following to your PowerShell profile script:
+```ps1
+Import-Module Terminal-Icons
+```
+
+
+## 🔌 Install [Neofetch](https://github.com/dylanaraps/neofetch) / [Winfetch](https://github.com/lptstr/winfetch)
 
 Both **Neofetch** and **Winfetch** are command-line system information utilities that display information about your operating system, software, and hardware in an aesthetic and visually pleasing way. But **Winfetch** will be more personalized, so if you want to be fast, you can use Neofetch.
 > Install Neofetch
