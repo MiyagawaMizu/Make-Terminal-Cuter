@@ -134,7 +134,6 @@ Both **Neofetch** and **Winfetch** are command-line system information utilities
 
 ### 🪟 Neofetch
 ```ps1
-```ps1
 # Install Neofetch
 scoop install neofetch
 ```
