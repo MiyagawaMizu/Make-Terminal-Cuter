@@ -171,7 +171,7 @@ https://github.com/MiyagawaMizu/Cute-Terminal/assets/71164002/6d595282-5413-4271
 ### 🖼️ Custom Image for Winfetch
 Because Windows Terminal cannot produce full quality graphics, the Windows logo to the left can be altered to a custom "image" that looks more like a low resolution pixel art.
 
->⚠️**Important** <br>
+>⚠️ **Important** <br>
 > Copy path to your image. <br>
 > Go to this path to edit the config file:
 ```
